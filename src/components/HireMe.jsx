@@ -63,7 +63,7 @@ const HireMe = () => {
                     <div className="mt-32 flex items-center space-x-6">
                         {/* <!-- Mail --> */}
                         <a
-                            href="gerardomontini@gmail.com.com"
+                            href="gerardomontini@gmail.com"
                             className="text-secondary underline mt-3 block"
                         >
                             <img
