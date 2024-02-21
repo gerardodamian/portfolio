@@ -26,6 +26,7 @@ const Nav = () => {
                 </a>
                 <a href="#work">Mi trabajo</a>
                 <a href="#tech">Tecnologías</a>
+                <a href="#cert">Certificados</a>
                 <a href="#hire">
                     <button className="px-6 py-2 bg-theme font-bold">
                         Contactame

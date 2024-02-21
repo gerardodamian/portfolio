@@ -8,7 +8,7 @@ import flex from "../img/flex.jpg"
 const Certificados = () => {
     return (
         <div className="container mt-44 mx-auto px-4 lg:px-8 md:px-14 w-full">
-            <h2 id="tech" className="secondary-title">
+            <h2 id="cert" className="secondary-title">
                 Certificados
             </h2>
             <p className="section-paragraph">

@@ -33,6 +33,14 @@ const Header = () => {
                             </span>
                         </a>
                         <a
+                            href="#cert"
+                            className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+                        >
+                            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+                                Certificados
+                            </span>
+                        </a>
+                        <a
                             href="#hire"
                             className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
                         >
