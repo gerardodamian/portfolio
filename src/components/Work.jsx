@@ -37,6 +37,8 @@ const Work = () => {
                             <div className="badge">Frontend</div>
                             <div className="badge">React</div>
                             <div className="badge">Boostrap</div>
+                            <div className="badge">Firebase</div>
+                            <div className="badge">Vercel</div>
                         </div>
 
                         <p className="text-secondary">
