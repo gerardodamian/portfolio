@@ -4,7 +4,7 @@ import humblefood from "../img/terapia-de-biomagnetismo.jpg";
 import blackFlag from "../img/ecommerce-.jpg";
 import airBalloon from "../img/e-commerce.jpg";
 import github from "../img/github.png";
-import calculadora from "../img/calculadora.jpg"
+import peliculas from "../img/pelis.webp"
 
 const Work = () => {
     return (
@@ -331,7 +331,7 @@ const Work = () => {
                         {/* <!-- App logo --> */}
                         <div className="mb-6 flex items-center justify-center">
                             <img
-                                src={calculadora}
+                                src={peliculas}
                                 alt="airBalloon"
                                 className="w-100"
                             />
