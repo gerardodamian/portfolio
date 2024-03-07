@@ -1,10 +1,9 @@
-
 import krypt from "../img/deportes.jpg";
 import humblefood from "../img/terapia-de-biomagnetismo.jpg";
 import blackFlag from "../img/ecommerce-.jpg";
 import airBalloon from "../img/e-commerce.jpg";
 import github from "../img/github.png";
-import peliculas from "../img/pelis.webp"
+import peliculas from "../img/pelis.webp";
 
 const Work = () => {
     return (
@@ -346,6 +345,9 @@ const Work = () => {
                             <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
                                 <div className="badge">Frontend</div>
                                 <div className="badge">Javascript</div>
+                                <div className="badge">Html</div>
+                                <div className="badge">Css</div>
+                                <div className="badge">Boostrap</div>
                             </div>
 
                             <p className="text-secondary">
