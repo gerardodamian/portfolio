@@ -340,7 +340,7 @@ const Work = () => {
                         {/* <!-- App info --> */}
                         <div className="flex flex-col justify-center items-center text-center">
                             <h3 className="text-white text-3xl font-semibold">
-                                Calculadora con Javascript
+                                Buscador de Peliculas
                             </h3>
 
                             <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
@@ -349,12 +349,13 @@ const Work = () => {
                             </div>
 
                             <p className="text-secondary">
-                                Single Page Application donde se puede usar una calculadora.
+                                Single Page Application donde se puede usar una
+                                API para buscar peliculas.
                             </p>
 
                             <div className="flex flex-col md:flex-row justify-center">
                                 <a
-                                    href="https://gerardodamian.github.io/calculadora-javascript/"
+                                    href="https://gerardodamian.github.io/buscador-pelis/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="md:m-2 px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center justify-center space-x-3 w-56"
@@ -380,7 +381,7 @@ const Work = () => {
                                     </div>
                                 </a>
                                 <a
-                                    href="https://github.com/gerardodamian/calculadora-javascript.git"
+                                    href="https://github.com/gerardodamian/buscador-pelis.git"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="md:m-2 px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center justify-center space-x-3 w-56"
