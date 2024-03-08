@@ -13,7 +13,7 @@ const Certificados = () => {
             </h2>
             <p className="section-paragraph">
                 Estos son los Certificados que he ido obteniendo con mis
-                estudios
+                estudios. En muchos de ellos termine en el "Top 10 🏅" del curso entre 200 alumnos.
             </p>
             <div class="flex flex-wrap  ">
                 <img src={desarrollo} alt="" style={{ width: "450px", margin: "10px" }} className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..." />
