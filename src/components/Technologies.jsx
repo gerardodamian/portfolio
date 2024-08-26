@@ -5,6 +5,7 @@ import typescript from "../img/typescript.png";
 import react from "../img/react.png";
 import angular from "../img/angular-icon.svg"
 import node from "../img/node.png";
+import python from "../img/python.png"
 
 
 import tailwind from "../img/tailwind.png";
@@ -23,6 +24,7 @@ const Technologies = () => {
         { name: "ReactJS", image: react },
         { name: "Angular", image: angular },
         { name: "NodeJS", image: node },
+        { name: "Python", image: python },
 
         { name: "Git", image: git },
 
@@ -57,7 +59,7 @@ const Technologies = () => {
                     ))}
                 </div>
             </section>
-        </div>
+        </div> 
     );
 };
 
