@@ -202,7 +202,7 @@ const Work = () => {
                                 </p>
                                 <div className="flex flex-col md:flex-row justify-center">
                                     <a
-                                        href="https://gerardodamian.github.io/Proyecto-final-gerardo-montini/"
+                                        href="https://gerardodamian.github.io/Biomagnetismo-Medicinal/"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="md:m-2 px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center justify-center space-x-3 w-56"
