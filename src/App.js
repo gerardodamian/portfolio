@@ -82,8 +82,8 @@ function App() {
                 <Nav />
                 <Header />
                 <Work />
-                <Experiencia />
                 <Technologies />
+                <Experiencia />
                 <Certificados />
                 <HireMe />
             </main>

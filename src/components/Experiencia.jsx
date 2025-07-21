@@ -2,9 +2,11 @@ import React from "react";
 import yalutecLogo from "../img/LOGO-YALUTEC.svg";
 
 const Experiencia = () => {
+    console.log("🚀 Componente Experiencia renderizado");
+    
     return (
         <div className="container mt-44 mx-auto px-4 lg:px-8 md:px-14 w-full">
-            <h2 id="experience" className="secondary-title">
+            <h2 id="experiencia" className="secondary-title">
                 Experiencia Laboral
             </h2>
             <p className="section-paragraph">

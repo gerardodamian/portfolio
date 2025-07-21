@@ -6,10 +6,12 @@ import carrera from "../img/carrera.jpg"
 import flex from "../img/flex.jpg"
 import angular2 from "../img/AngularC.jpg"  
 import git from "../img/git.jpg"           
-import postman from "../img/postman.jpg"   
+import postman from "../img/Postman.jpg"   
 import dashboardIA from "../img/dashboard-ia.jpg" 
 
 const Certificados = () => {
+    console.log("📜 Componente Certificados renderizado");
+    
     return (
         <div className="container mt-44 mx-auto px-4 lg:px-8 md:px-14 w-full">
             <h2 id="cert" className="secondary-title">
