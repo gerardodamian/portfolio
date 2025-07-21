@@ -4,10 +4,11 @@ import java from "../img/java.png"
 import react2 from "../img/react.jpg"
 import carrera from "../img/carrera.jpg"
 import flex from "../img/flex.jpg"
-import angular2 from "../img/Angular.jpg"  
+import angular2 from "../img/AngularC.jpg"  
 import git from "../img/git.png"           
 import postman from "../img/postman.jpg"   
-import dashboardIA from "../img/dashboard-ia.jpg"  
+import dashboardIA from "../img/dashboard-ia.jpg"
+import  
 const Certificados = () => {
     return (
         <div className="container mt-44 mx-auto px-4 lg:px-8 md:px-14 w-full">
