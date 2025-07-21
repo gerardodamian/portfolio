@@ -5,10 +5,9 @@ import react2 from "../img/react.jpg"
 import carrera from "../img/carrera.jpg"
 import flex from "../img/flex.jpg"
 import angular2 from "../img/Angular.jpg"  
-import git from "../img/git.jpg"           // Faltaba este import
-import postman from "../img/Postman.jpg"   
-import dashboardIA from "../img/dashboard-ia.jpg"  // Sin espacio extra
-
+import git from "../img/git.png"           
+import postman from "../img/postman.jpg"   
+import dashboardIA from "../img/dashboard-ia.jpg"  
 const Certificados = () => {
     return (
         <div className="container mt-44 mx-auto px-4 lg:px-8 md:px-14 w-full">
@@ -23,31 +22,31 @@ const Certificados = () => {
             <div className="flex flex-wrap">
                 <img
                     src={desarrollo}
-                    alt=""
+                    alt="Certificado Desarrollo"
                     style={{ width: "450px", margin: "10px" }}
                     className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
                 />
                 <img
                     src={java}
-                    alt=""
+                    alt="Certificado Java"
                     style={{ width: "450px", margin: "10px" }}
                     className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
                 />
                 <img
                     src={react2}
-                    alt=""
+                    alt="Certificado React"
                     style={{ width: "450px", margin: "10px" }}
                     className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
                 />
                 <img
                     src={carrera}
-                    alt=""
+                    alt="Certificado Carrera"
                     style={{ width: "450px", margin: "10px" }}
                     className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
                 />
                 <img
                     src={flex}
-                    alt=""
+                    alt="Certificado Flexbox"
                     style={{ width: "450px", margin: "10px" }}
                     className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
                 />

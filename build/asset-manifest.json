@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.adfe1424.css",
-    "main.js": "/static/js/main.8e7f6805.js",
+    "main.js": "/static/js/main.1011c476.js",
     "static/js/592.6d7de513.chunk.js": "/static/js/592.6d7de513.chunk.js",
     "static/media/java.png": "/static/media/java.8a3fc73a36518296f9be.png",
     "static/media/desarrollo.png": "/static/media/desarrollo.086863ba48fc92a9dbf7.png",
     "static/media/deportes.jpg": "/static/media/deportes.9ef67fd231c0f7b09779.jpg",
     "static/media/myphoto.jpg": "/static/media/myphoto.b35e2ac820e2d80a156c.jpg",
+    "static/media/dashboard-ia.jpg": "/static/media/dashboard-ia.1e8477ad7a83651cb463.jpg",
+    "static/media/postman.jpg": "/static/media/postman.d13f6d44f974aef290b8.jpg",
     "static/media/Cv  Gerardo Montini.pdf": "/static/media/Cv  Gerardo Montini.46d7a807937c30235bb8.pdf",
     "static/media/Constancia.pdf": "/static/media/Constancia.9be0b3624d3ea0cdeb93.pdf",
     "static/media/pelis.webp": "/static/media/pelis.749b7fc66b5e141a37ad.webp",
@@ -16,17 +18,19 @@
     "static/media/e-commerce.jpg": "/static/media/e-commerce.3b60ecb6e4542b4c2efc.jpg",
     "static/media/tailwind.png": "/static/media/tailwind.36b2728bf0d14b7b7576.png",
     "static/media/ecommerce-.jpg": "/static/media/ecommerce-.0c813e0102364d0f0351.jpg",
+    "static/media/Angular.jpg": "/static/media/Angular.7f46664a16ee604449a9.jpg",
     "static/media/terapia-de-biomagnetismo.jpg": "/static/media/terapia-de-biomagnetismo.dcdd91fc6f4f6b20a027.jpg",
     "static/media/react.png": "/static/media/react.2419b8a05e00fa734898.png",
+    "static/media/LOGO-YALUTEC.svg": "/static/media/LOGO-YALUTEC.5e38879fd1f3c0db0e7af9162f8a14cd.svg",
     "index.html": "/index.html",
     "static/media/angular-icon.svg": "/static/media/angular-icon.e6ed573fa80c0dc1bf57730930ac0158.svg",
     "static/media/vercel.svg": "/static/media/vercel.90f94e577c4ff5cc11e7c565df5e31e1.svg",
     "main.adfe1424.css.map": "/static/css/main.adfe1424.css.map",
-    "main.8e7f6805.js.map": "/static/js/main.8e7f6805.js.map",
+    "main.1011c476.js.map": "/static/js/main.1011c476.js.map",
     "592.6d7de513.chunk.js.map": "/static/js/592.6d7de513.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adfe1424.css",
-    "static/js/main.8e7f6805.js"
+    "static/js/main.1011c476.js"
   ]
 }
