@@ -7,6 +7,7 @@ import flex from "../img/flex.jpg"
 import angular2 from "../img/Angular.jpg"
 import git from "../img/git.jpg"
 import postman from "../img/Postman.jpg"
+import dashboardIA from "../img/dashboard-ia.jpg" // Nuevo certificado
 
 const Certificados = () => {
     return (
@@ -65,6 +66,12 @@ const Certificados = () => {
                 <img
                     src={postman}
                     alt=""
+                    style={{ width: "450px", margin: "10px" }}
+                    className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+                />
+                <img
+                    src={dashboardIA}
+                    alt="Certificado Dashboards en Minutos con IA de Claude"
                     style={{ width: "450px", margin: "10px" }}
                     className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
                 />
