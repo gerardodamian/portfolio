@@ -5,9 +5,9 @@ import react2 from "../img/react.jpg"
 import carrera from "../img/carrera.jpg"
 import flex from "../img/flex.jpg"
 import angular2 from "../img/AngularC.jpg"  
-import git from "../img/git.png"           
-import postman from "../img/postman.jpg"   
-import dashboardIA from "../img/dashboard-ia.jpg"
+import git from "../img/git.png"           // Cambio: .jpg → .png
+import postman from "../img/postman.jpg"   // Descomenta - el archivo existe
+import dashboardIA from "../img/dashboard-ia.jpg" // Descomenta - el archivo existe
 
 const Certificados = () => {
     return (
