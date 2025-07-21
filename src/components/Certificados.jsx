@@ -4,11 +4,10 @@ import java from "../img/java.png"
 import react2 from "../img/react.jpg"
 import carrera from "../img/carrera.jpg"
 import flex from "../img/flex.jpg"
-// Comentado - archivo no existe
-// import angular2 from "../img/Angular.jpg"  
-// import git from "../img/git.jpg"           
-// import postman from "../img/Postman.jpg"   
-// import dashboardIA from "../img/dashboard-ia.jpg"
+import angular2 from "../img/Angular.jpg"  
+import git from "../img/git.jpg"           // Faltaba este import
+import postman from "../img/Postman.jpg"   
+import dashboardIA from "../img/dashboard-ia.jpg"  // Sin espacio extra
 
 const Certificados = () => {
     return (
@@ -49,6 +48,30 @@ const Certificados = () => {
                 <img
                     src={flex}
                     alt=""
+                    style={{ width: "450px", margin: "10px" }}
+                    className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+                />
+                <img
+                    src={angular2}
+                    alt="Certificado Angular"
+                    style={{ width: "450px", margin: "10px" }}
+                    className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+                />
+                <img
+                    src={git}
+                    alt="Certificado Git"
+                    style={{ width: "450px", margin: "10px" }}
+                    className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+                />
+                <img
+                    src={postman}
+                    alt="Certificado Postman"
+                    style={{ width: "450px", margin: "10px" }}
+                    className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+                />
+                <img
+                    src={dashboardIA}
+                    alt="Certificado Dashboards con IA"
                     style={{ width: "450px", margin: "10px" }}
                     className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
                 />
