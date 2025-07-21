@@ -4,10 +4,11 @@ import java from "../img/java.png"
 import react2 from "../img/react.jpg"
 import carrera from "../img/carrera.jpg"
 import flex from "../img/flex.jpg"
-import angular2 from "../img/Angular.jpg"
-import git from "../img/git.jpg"
-import postman from "../img/Postman.jpg"
-import dashboardIA from "../img/dashboard-ia.jpg" // Nuevo certificado
+// Comentado - archivo no existe
+// import angular2 from "../img/Angular.jpg"  
+// import git from "../img/git.jpg"           
+// import postman from "../img/Postman.jpg"   
+// import dashboardIA from "../img/dashboard-ia.jpg"
 
 const Certificados = () => {
     return (
@@ -20,7 +21,7 @@ const Certificados = () => {
                 estudios. En muchos de ellos termine en el "Top 10 🏅" del curso
                 entre 200 alumnos.
             </p>
-            <div class="flex flex-wrap  ">
+            <div className="flex flex-wrap">
                 <img
                     src={desarrollo}
                     alt=""
@@ -48,30 +49,6 @@ const Certificados = () => {
                 <img
                     src={flex}
                     alt=""
-                    style={{ width: "450px", margin: "10px" }}
-                    className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
-                />
-                <img
-                    src={angular2}
-                    alt=""
-                    style={{ width: "450px", margin: "10px" }}
-                    className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
-                />
-                <img
-                    src={git}
-                    alt=""
-                    style={{ width: "450px", margin: "10px" }}
-                    className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
-                />
-                <img
-                    src={postman}
-                    alt=""
-                    style={{ width: "450px", margin: "10px" }}
-                    className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
-                />
-                <img
-                    src={dashboardIA}
-                    alt="Certificado Dashboards en Minutos con IA de Claude"
                     style={{ width: "450px", margin: "10px" }}
                     className=" w-full md:w-1/5 m-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
                 />
