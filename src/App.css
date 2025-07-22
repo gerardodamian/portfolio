@@ -42,3 +42,80 @@ main {
   filter: blur(20px);
   transition: opacity 2s ease-in-out, filter 2s ease-in-out;
 }
+
+/* src/index.css - Agrega al final del archivo */
+
+/* Variables CSS modernas */
+:root {
+  --primary: #3b82f6;
+  --secondary: #8b5cf6;
+  --accent: #06d6a0;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --dark: #0f172a;
+  --surface: #1e293b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+}
+
+/* Glass-morphism effect */
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+/* Gradientes modernos */
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hover effects mejorados */
+.hover-glow:hover {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Secondary title mejorado */
+.secondary-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .secondary-title {
+    font-size: 2rem;
+  }
+}
+
+/* src/index.css - Agrega estas clases para tema claro */
+.light {
+  --bg-body: #ffffff;
+  --text-color: #1e293b;
+  --surface: #f8fafc;
+  --border-color: #e2e8f0;
+}
+
+.dark {
+  --bg-body: #000000;
+  --text-color: #ffffff;
+  --surface: #1e293b;
+  --border-color: #374151;
+}
+
+/* Variables que cambiarán con el tema */
+:root {
+  --bg-body: #000000;
+  --text-color: #ffffff;
+  --surface: #1e293b;
+  --border-color: #374151;
+}

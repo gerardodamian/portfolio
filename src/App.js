@@ -8,6 +8,9 @@ import HireMe from "./components/HireMe";
 import Technologies from "./components/Technologies";
 import Certificados from "./components/Certificados";
 import Experiencia from "./components/Experiencia";
+import Metrics from "./components/Metrics";
+import ThemeToggle from "./components/ThemeToggle";
+import { ThemeProvider } from "./contexts/ThemeContext";
 
 function App() {
     const [vantaEffect, setVantaEffect] = useState(0);
@@ -31,16 +34,14 @@ function App() {
                     gyroControls: false,
                     minHeight: 200.0,
                     minWidth: 200.0,
-                    scale: 1.0,
-                    scaleMobile: 1.0,
-                    birdSize: 1.3,
+                    backgroundColor: 0x000000,
+                    color1: 0x3b82f6,
+                    color2: 0x8b5cf6,
+                    birdSize: 1.2,
                     wingSpan: 25.0,
-                    speedLimit: 4.0,
-                    separation: 100.0,
-                    alignment: 1.0,
-                    cohesion: 43.0,
-                    quantity: 3.0,
-                    backgroundAlpha: 0.0,
+                    separation: 50.0,
+                    alignment: 50.0,
+                    cohesion: 50.0,
                 })
             );
         }
@@ -49,45 +50,30 @@ function App() {
         };
     }, [vantaEffect]);
 
-    function updateList() {
-        const titles = [...document.querySelectorAll("h1, h2")].sort((a, b) => {
-            return (
-                Math.abs(a.getBoundingClientRect().top) -
-                Math.abs(b.getBoundingClientRect().top)
-            );
-        });
-
-        document
-            .querySelectorAll(".selected-circle")
-            .forEach((c) => c.classList.remove("selected-circle"));
-
-        document
-            .querySelectorAll(".nav-dot")
-            [
-                [...document.querySelectorAll("h1, h2")].indexOf(titles[0])
-            ].classList.add("selected-circle");
-    }
-
-    window.addEventListener("scroll", () => {
-        updateList();
-    });
-
     return (
-        <div className="bg-body h-full w-full text-white font-poppins pb-12">
-            <div
-                ref={headerRef}
-                className="w-full h-screen absolute top-0 left-0 z-0"
-            />
-            <main id="main" className="w-full relative">
-                <Nav />
-                <Header />
-                <Work />
-                <Technologies />
-                <Experiencia />
-                <Certificados />
-                <HireMe />
-            </main>
-        </div>
+        <ThemeProvider>
+            <div className="h-full w-full text-white font-poppins pb-12 transition-all duration-300"
+                 style={{
+                   backgroundColor: 'var(--bg-body)',
+                   color: 'var(--text-color)'
+                 }}>
+                <div
+                    ref={headerRef}
+                    className="w-full h-screen absolute top-0 left-0 z-0"
+                />
+                <ThemeToggle />
+                <main id="main" className="w-full relative">
+                    <Nav />
+                    <Header />
+                    <Work />
+                    <Technologies />
+                    <Experiencia />
+                    <Metrics />
+                    <Certificados />
+                    <HireMe />
+                </main>
+            </div>
+        </ThemeProvider>
     );
 }
 

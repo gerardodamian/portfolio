@@ -34,8 +34,8 @@ export default function ButtonMenu() {
                         <div className="px-1 py-1">
                             <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                        href="#"
+                                    <button
+                                        type="button"
                                         className={`${
                                             active
                                                 ? "bg-indigo-600 text-white"
@@ -43,7 +43,7 @@ export default function ButtonMenu() {
                                         } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                                     >
                                         🏠 Inicio
-                                    </a>
+                                    </button>
                                 )}
                             </Menu.Item>
                             <Menu.Item>

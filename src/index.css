@@ -9,6 +9,52 @@ body {
   scroll-behavior: smooth;
 }
 
+/* src/index.css - Reemplaza o agrega al final */
+
+/* Variables base */
+:root {
+  --primary: #3b82f6;
+  --secondary: #8b5cf6;
+  --accent: #06d6a0;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+}
+
+/* Tema oscuro (por defecto) */
+:root,
+.dark {
+  --bg-body: #000000;
+  --text-color: #ffffff;
+  --surface: #1e293b;
+  --border-color: #374151;
+  --glass-bg: rgba(255, 255, 255, 0.1);
+}
+
+/* Tema claro */
+.light {
+  --bg-body: #ffffff;
+  --text-color: #1e293b;
+  --surface: #f8fafc;
+  --border-color: #e2e8f0;
+  --glass-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Aplicar variables a elementos */
+body {
+  background-color: var(--bg-body);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Glass-morphism que cambia con tema */
+.glass-morphism {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
 .left-50 {
   left: 50%;
 }
@@ -26,7 +72,10 @@ body {
 }
 
 .secondary-title {
-  @apply text-3xl font-bold;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 2rem;
 }
 
 .secondary-title::before {
@@ -64,4 +113,12 @@ body {
 
 .nav-dot:hover span {
   opacity: 1;
+}
+
+/* Gradientes modernos */
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
