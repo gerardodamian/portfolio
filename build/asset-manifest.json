@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.976372a5.css",
-    "main.js": "/portfolio/static/js/main.ddac7892.js",
+    "main.css": "/portfolio/static/css/main.0d2bdd25.css",
+    "main.js": "/portfolio/static/js/main.20a690f7.js",
     "static/js/592.a76b83c4.chunk.js": "/portfolio/static/js/592.a76b83c4.chunk.js",
     "static/media/java.png": "/portfolio/static/media/java.8a3fc73a36518296f9be.png",
     "static/media/desarrollo.png": "/portfolio/static/media/desarrollo.086863ba48fc92a9dbf7.png",
@@ -11,7 +11,6 @@
     "static/media/dashboard-ia.jpg": "/portfolio/static/media/dashboard-ia.1e8477ad7a83651cb463.jpg",
     "static/media/Postman.jpg": "/portfolio/static/media/Postman.d13f6d44f974aef290b8.jpg",
     "static/media/AngularC.jpg": "/portfolio/static/media/AngularC.978687346e0cce570188.jpg",
-    "static/media/Cv  Gerardo Montini.pdf": "/portfolio/static/media/Cv  Gerardo Montini.46d7a807937c30235bb8.pdf",
     "static/media/Constancia.pdf": "/portfolio/static/media/Constancia.9be0b3624d3ea0cdeb93.pdf",
     "static/media/pelis.webp": "/portfolio/static/media/pelis.749b7fc66b5e141a37ad.webp",
     "static/media/flex.jpg": "/portfolio/static/media/flex.6c772adfd2a98d6ed083.jpg",
@@ -20,18 +19,19 @@
     "static/media/e-commerce.jpg": "/portfolio/static/media/e-commerce.3b60ecb6e4542b4c2efc.jpg",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.36b2728bf0d14b7b7576.png",
     "static/media/ecommerce-.jpg": "/portfolio/static/media/ecommerce-.0c813e0102364d0f0351.jpg",
+    "static/media/restaurante.jpg": "/portfolio/static/media/restaurante.a02d3f158e1ac4d10aa4.jpg",
     "static/media/terapia-de-biomagnetismo.jpg": "/portfolio/static/media/terapia-de-biomagnetismo.dcdd91fc6f4f6b20a027.jpg",
     "static/media/logoyalutec.jpg": "/portfolio/static/media/logoyalutec.9b543b0c9db9a4b72798.jpg",
     "static/media/react.png": "/portfolio/static/media/react.2419b8a05e00fa734898.png",
     "index.html": "/portfolio/index.html",
     "static/media/angular-icon.svg": "/portfolio/static/media/angular-icon.e6ed573fa80c0dc1bf57730930ac0158.svg",
     "static/media/vercel.svg": "/portfolio/static/media/vercel.90f94e577c4ff5cc11e7c565df5e31e1.svg",
-    "main.976372a5.css.map": "/portfolio/static/css/main.976372a5.css.map",
-    "main.ddac7892.js.map": "/portfolio/static/js/main.ddac7892.js.map",
+    "main.0d2bdd25.css.map": "/portfolio/static/css/main.0d2bdd25.css.map",
+    "main.20a690f7.js.map": "/portfolio/static/js/main.20a690f7.js.map",
     "592.a76b83c4.chunk.js.map": "/portfolio/static/js/592.a76b83c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.976372a5.css",
-    "static/js/main.ddac7892.js"
+    "static/css/main.0d2bdd25.css",
+    "static/js/main.20a690f7.js"
   ]
 }
