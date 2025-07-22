@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Metrics = () => {
   const metrics = [
-    { number: "36+", label: "Proyectos", icon: "📊" },
+    { number: "35+", label: "Proyectos", icon: "📊" },
     { number: "4", label: "Años Experiencia", icon: "⏰" },
     { number: "9", label: "Certificados", icon: "🏆" },
     { number: "100%", label: "Satisfacción", icon: "⭐" }
