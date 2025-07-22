@@ -108,7 +108,7 @@ const Header = () => {
                                     />
                                 </svg>
                             </div>
-                            <span>Ver CV Online</span>
+                            <span>Ver CV On line</span>
                         </motion.a>
 
                         {/* Download Reference Button */}
