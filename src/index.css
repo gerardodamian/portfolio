@@ -1,15 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&display=swap');
 
 html,
 body {
   scroll-behavior: smooth;
 }
-
-/* src/index.css - Reemplaza o agrega al final */
 
 /* Variables base */
 :root {
@@ -26,18 +24,32 @@ body {
 .dark {
   --bg-body: #000000;
   --text-color: #ffffff;
+  --text-secondary: #94a3b8;
   --surface: #1e293b;
   --border-color: #374151;
   --glass-bg: rgba(255, 255, 255, 0.1);
+  --nav-bg: #1f2937;
+  --icon-color: #ffffff;
+  --icon-hover: #60a5fa;
+  --input-bg: #1e293b;
+  --input-border: #374151;
+  --input-text: #ffffff;
 }
 
 /* Tema claro */
 .light {
   --bg-body: #ffffff;
   --text-color: #1e293b;
+  --text-secondary: #64748b;
   --surface: #f8fafc;
   --border-color: #e2e8f0;
-  --glass-bg: rgba(0, 0, 0, 0.1);
+  --glass-bg: rgba(0, 0, 0, 0.05);
+  --nav-bg: #f1f5f9;
+  --icon-color: #1e293b;
+  --icon-hover: #3b82f6;
+  --input-bg: #ffffff;
+  --input-border: #d1d5db;
+  --input-text: #1e293b;
 }
 
 /* Aplicar variables a elementos */
@@ -45,6 +57,50 @@ body {
   background-color: var(--bg-body);
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 🎯 ESTILOS PARA FORMULARIO */
+.form__input {
+  background-color: var(--input-bg) !important;
+  border-color: var(--input-border) !important;
+  color: var(--input-text) !important;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.form__input::placeholder {
+  color: var(--text-secondary) !important;
+}
+
+.form__cta {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.form__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+}
+
+/* Clases que faltaban */
+.bg-input {
+  background-color: var(--input-bg) !important;
+}
+
+.border-input-border {
+  border-color: var(--input-border) !important;
+}
+
+.bg-theme {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
 }
 
 /* Glass-morphism que cambia con tema */
@@ -55,6 +111,7 @@ body {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
+/* Utilities personalizadas */
 .left-50 {
   left: 50%;
 }
@@ -67,34 +124,98 @@ body {
   top: 50%;
 }
 
-.-z-1 {
+.z-negative {
   z-index: -1;
 }
 
+/* Títulos y texto */
 .secondary-title {
   font-size: 2.5rem;
   font-weight: bold;
   color: var(--text-color);
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .secondary-title::before {
   content: "";
-  @apply block w-12 h-2 bg-theme rounded-full mb-1;
+  display: block;
+  width: 3rem;
+  height: 0.5rem;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border-radius: 9999px;
+  margin-bottom: 0.25rem;
 }
 
 .section-paragraph {
-  @apply text-secondary my-6 w-full max-w-3xl;
+  color: var(--text-secondary);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 48rem;
 }
 
+/* Texto secundario que se adapta al tema */
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+/* Badges que se adaptan al tema */
 .badge {
-  @apply px-4 py-2 text-sm rounded bg-badge;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 0.375rem;
+  background-color: rgba(59, 130, 246, 0.1);
+  color: #60a5fa;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  transition: all 0.3s ease;
 }
 
+.light .badge {
+  background-color: rgba(59, 130, 246, 0.15);
+  color: #2563eb;
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* 🎯 ICONOS DE CONTACTO */
+.contact-icon {
+  fill: var(--icon-color) !important;
+  stroke: var(--icon-color) !important;
+  color: var(--icon-color) !important;
+  transition: all 0.3s ease;
+}
+
+.contact-icon:hover {
+  fill: var(--icon-hover) !important;
+  stroke: var(--icon-hover) !important;
+  color: var(--icon-hover) !important;
+  transform: scale(1.1);
+}
+
+/* Para botones con iconos */
+.btn-icon {
+  background-color: var(--surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  fill: var(--icon-color);
+  transition: all 0.3s ease;
+}
+
+.btn-icon:hover {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: white;
+  fill: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);
+}
+
+/* Scroll offset para anchors */
 [id] {
   scroll-margin-top: 100px;
 }
 
+/* Navegación lateral */
 .left-percentage {
   left: 5%;
 }
@@ -104,21 +225,90 @@ body {
 }
 
 .nav-dot {
-  transition: background 200ms, border-color 200ms;
+  transition: background-color 200ms ease, border-color 200ms ease;
+  position: relative;
+  background-color: var(--nav-bg);
+  border-color: var(--border-color);
 }
 
 .selected-circle {
-  @apply border-theme bg-theme;
+  border-color: var(--primary) !important;
+  background-color: var(--primary) !important;
 }
 
 .nav-dot:hover span {
   opacity: 1;
+  background-color: var(--nav-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+
+/* Títulos principales adaptables */
+.text-white {
+  color: var(--text-color) !important;
+}
+
+/* Para componentes específicos que necesitan adaptarse */
+.light .text-white {
+  color: #1e293b !important;
+}
+
+.light .text-gray-300 {
+  color: #64748b !important;
+}
+
+.light .text-gray-400 {
+  color: #94a3b8 !important;
 }
 
 /* Gradientes modernos */
 .gradient-text {
   background: linear-gradient(135deg, var(--primary), var(--secondary));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Bordes que se adaptan */
+.border-nav {
+  border-color: var(--border-color) !important;
+}
+
+/* Fondos que se adaptan */
+.bg-body {
+  background-color: var(--bg-body) !important;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .secondary-title {
+    font-size: 2rem;
+  }
+  
+  .left-percentage {
+    left: 2%;
+  }
+}
+
+/* Animaciones suaves para cambio de tema */
+* {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Asegurar que todos los textos se adapten */
+.light h1,
+.light h2,
+.light h3,
+.light h4,
+.light h5,
+.light h6,
+.light p,
+.light span,
+.light div {
+  color: var(--text-color);
+}
+
+.light .text-secondary {
+  color: var(--text-secondary) !important;
 }
